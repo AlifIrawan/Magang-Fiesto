@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mencoba replace dengan Javascript</title>
+</head>
+<body>
+    <p id="coba-1">Apa itu gajah?</p>
+    <button onclick="functionRegular()">ubah hewan</button>
+
+    <p id="coba-2">Saya melihat kura kura</p>
+    <button onclick="functionExpression()">ubah hewan (2x)</button>
+
+    <p id="coba-3">Saya melihat kura kura</p>
+    <button onclick="functionExpression2()">ubah hewan (lagi)</button>
+
+<script>
+
+
+function functionRegular(){ 
+    let jerapah = document.getElementById("coba-1").innerHTML;
+    document.getElementById("coba-1").innerHTML = jerapah.replace(/GAJAH/i, "jerapah");
+}
+
+function functionExpression(){
+    let lumba = document.getElementById("coba-2").innerHTML;
+    document.getElementById("coba-2").innerHTML = lumba.replace("kura", "lumba");
+}
+
+function functionExpression2(){
+    let lumba = document.getElementById("coba-3").innerHTML;
+    document.getElementById("coba-3").innerHTML = lumba.replace(/kura/g, "lumba");
+}
+
+
+</script>
+
+</body>
+</html>

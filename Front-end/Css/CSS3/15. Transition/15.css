@@ -1,0 +1,33 @@
+/* Value Transition */
+/* [property] <durasi> [fungsi] [delay] */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: margin-left 3s, transform 3s 2s, background-color 2s 3s;
+}
+
+.container:hover .kotak {
+    transform: rotate(180deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
+
+.container:hover {
+    background-image: linear-gradient(45deg, blue, red);
+    border: 5px solid chartreuse;
+}
+
+.container {
+    transition: 1s;
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid black;
+    background-image: linear-gradient(45deg, blue, violet, red);
+}

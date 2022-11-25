@@ -1,0 +1,23 @@
+.text-align {
+    text-align: center;
+}
+
+/* Menambah jarak ke kanan */
+.text-indent {
+    text-indent: 10%;
+}
+
+.text-decoration {
+    text-decoration: line-through;
+    /*none, underline, overline*/
+}
+
+.text-transform {
+    text-transform: capitalize;
+    /* lowercase, uppercase */
+}
+
+.spacing {
+    letter-spacing: 10px;
+    word-spacing: 100px;
+}

@@ -1,0 +1,68 @@
+.container {
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+
+/* Perlu diperhatikan jika ingin membuat Multicolumn Layouts harus kita hitung antara 
+    lebar container dengan lebar masing masing element atau bisa gunakan box-sizing: border-box */
+
+.kiri {
+    width: 150px;
+    height: 500px;
+    background-color: sandybrown;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+.tengah {
+    width: 500px;
+    height: 500px;
+    background-color: sienna;
+    float: left;
+    /* display: inline-block; */
+}
+
+.kanan {
+    width: 150px;
+    height: 500px;
+    background-color: slateblue;
+    float: left;
+    /* display: inline-block; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .satu,
+.dua,
+.tiga {
+    height: 100px;
+    width: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: limegreen;
+    float: right;
+}
+
+.tiga {
+    background-color: steelblue;
+} */

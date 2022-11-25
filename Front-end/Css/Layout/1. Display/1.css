@@ -1,0 +1,28 @@
+/* body {
+    display: inline-block;
+} */
+
+/* .main span {
+    background-color: yellow;
+} */
+
+/* a {
+    display: inline;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+} */
+
+.main {
+    width: 600px;
+    background-color: lightgreen;
+}
+
+.main h2 {
+    background-color: lightpink;
+}
+
+.navigasi li {
+    display: inline;
+    background-color: tomato;
+}

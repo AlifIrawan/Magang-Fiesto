@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara menampilkan data di Javascript</title>
+</head>
+<body>
+    <!-- Mencoba menampilkan teks javascript ke html -->
+    <p id="innerHTML"></p>
+    <button onclick="document.write('Pake Write nih')">coba write</button><br><br>
+    <button onclick="window.alert('Coba Alert nih')">coba alert</button><br><br>
+    <button onclick="window.print()">Ayo print page ini</button><br><br>
+    <p id="function"></p>
+    <button onclick="myFunction()">Klik disini</button>
+    
+
+
+
+
+
+<script>
+    document.getElementById("innerHTML").innerHTML = 'Pake innerHTML nih';
+    console.log('Pake console log nih');
+
+    function myFunction(){
+        document.getElementById("function").innerHTML = "Teks ini ditulis <br> dengan function"
+    }
+</script>
+
+</body>
+</html>

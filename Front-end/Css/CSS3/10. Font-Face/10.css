@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url(fira-sans/FiraSans-Two.otf) format('truetype');
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Fira Sans', arial;
+}

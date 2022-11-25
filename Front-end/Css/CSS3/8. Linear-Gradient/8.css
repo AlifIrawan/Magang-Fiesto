@@ -1,0 +1,11 @@
+div {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to bottom , #4f3771 20%, #f9bdf3);
+    /* Penulisan linear-gradient */
+    /* Memakai Sudut : */
+    /* background-image: linear-gradient(-45deg, red, yellow); */
+    /* Memakai Arah : */
+    /* background-image: linear-gradient(to bottom left, red, yellow); */
+}

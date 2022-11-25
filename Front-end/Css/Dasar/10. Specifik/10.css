@@ -1,0 +1,25 @@
+ul#sarapan li {
+    color: green;
+}
+
+ul#sarapan li.favorit {
+    color: maroon;
+}
+
+
+/* Logika Spesifik */
+/* BAYANGKAN ADA 4 SERIAL CODE : */
+/* 0 = inline */
+/* 0 = id */
+/* 0 = class */
+/* 0 = element */
+
+
+/* CARA MENGHITUNG NYA */
+/* Jika ada salah satu dari 4 serial code diatas pointnya bertambah 1 */
+/* EX :  */
+/* ul#sarapan li.favorit {} */
+/* 0 = tidak ada inline style di html */
+/* 1 = untuk #sarapan */
+/* 1 = untuk .favorit */
+/* 2 = untuk element html yaitu ul dan li */

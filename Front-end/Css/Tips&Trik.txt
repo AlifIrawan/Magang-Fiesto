@@ -1,0 +1,21 @@
+												WEB PROGRAMING
+												CSS tips
+
+1.) Display memiliki 4 value :
+	a.) inline hanya memblok sesuai dengan ukuran konten dan tidak dapat dimanipulasi (absolute)
+	b.) block dapat memanipulasi ukuran (weight,height,margin) konten (relative)
+	c.) inline-block gabungan antara inline dan block, tampilan akan kesamping (inline) tetapi ukuran konten dapat di manipulasi (block)
+
+2.) overflow dapat memodifikasi konten kita, memiliki 4 value :
+	a.) visible menampilkan seluruh isi konten walaupun melebihi element pembungkusnya 
+	b.) hidden menyembunyikan konten seolah olah terpotong, jika konten yang kita punya melebihi element pembungkusnya 
+	c.) scroll menampilkan seluruh isi konten, jika melebihi element pembungkusnya maka akan terpotong tetapi akan ada scroller disamping kiri meskipun isi konten sedikit
+	d.) auto memiliki fungsi yang sama dengan value scroll, perbedaannya jika isi konten sedikit scroller tidak akan muncul
+
+3.) margin adalah properti yang mengatur sisi tiap element diluar border,padding, dan konten. 
+	margin vertikal example :
+		 terdapat box 1 dan box 2 berurutan secara vertikal, jika kita ubah margin-bottom dari box 1 ke 150px dan mengubah
+	margin-top box 2 ke 50px maka tidak akan ada perubahan apapun dan box 1 tetap sejauh 150px dari box 2. karena margin
+	terbesar terdapat di box 1 maka margin pada box 2 tidak akan dihitung.  
+
+4.) filter dan transform memiliki akselerasi lebih cepat dibandingkan menggunakan position dan box-shadow

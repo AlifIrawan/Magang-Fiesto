@@ -1,0 +1,8 @@
+-) Saat menggunakan margin, secara horizontal maka nilai nya akan ditambahkan
+    tetapi jika menggunakan vertikal akan dibandingkan dan diambil margin terbesar
+
+-) keanehan saat mengguakan inline-block adalah akan ada jarak kecil tiap elemet. cara mengatasinya cukup hapus spasi pada tiap element di html tersebut.
+
+-) jika sebuah margin diberi nilai negatif maka element akan berpindah sesuai nilai begitupun element dibawahnya atau dikanannya
+
+-) value auto hanya dapat digunakan pada margin-left dan margin-right dan kedua margin harus memiliki value auto tidak boleh hanya salah satu

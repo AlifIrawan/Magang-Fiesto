@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('firasans-bold-webfont.woff2') format('woff2'),
+        url('firasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'fira_sansbold';
+}

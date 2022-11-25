@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Javascript</title>
+</head>
+<body>
+	<p>Klik tombol dibawah ini dong</p>
+
+	<button onclick="myFunction()">Coba tekan saya</button>
+	
+	<p id="akhir"></p>
+
+	<script type="text/javascript">
+		
+		function myFunction(){
+			var x;
+
+			if (confirm("Tekan Tombol!") == true) {
+				x = "kamu menekan OK!";
+			}
+			else {
+				x = "kamu menekan cancel!";
+			}
+
+			document.getElementById("akhir").innerHTML = x;
+		}
+
+	</script>
+</body>
+</html>

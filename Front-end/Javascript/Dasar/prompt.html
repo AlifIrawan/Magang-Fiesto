@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Javascript</title>
+</head>
+<body>
+	<p>Klik tombol dibawah ini dong</p>
+
+	<button onclick="myFunction()">Coba tekan saya</button>
+	
+	<p id="akhir"></p>
+
+	<script type="text/javascript">
+		
+		function myFunction(){
+			var person = prompt("masukkan nama anda" , "Haikal Irawan");
+
+			if ( person != null) {
+			
+			document.getElementById("akhir").innerHTML="Hello " + person + "! Bagaimana kabar anda??";
+		}
+	}
+
+	</script>
+</body>
+</html>

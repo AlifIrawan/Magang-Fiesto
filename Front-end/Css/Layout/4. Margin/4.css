@@ -1,0 +1,30 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: lightpink;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SHORTCUT */
+/* jika terdapat 1 value pada margin itu berarti atas,kanan,bawah dan kiri */
+/* jika terdapat 2 value pada margin itu berarti atas&bawah, kanan&kiri */
+/* Jika terdapat 3 value pada margin itu bertati atas, kanan&kiri, bawah */
+/* Jika terdapat 4 value pada margin itu berarti atas, kanan, bawah, kiri */

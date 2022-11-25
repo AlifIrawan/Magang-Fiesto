@@ -1,0 +1,48 @@
+div {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.satu {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(179, 179, 179);
+    border-radius: 20px;
+}
+
+.dua {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(240, 7, 7);
+    border-radius: 50% 0 50% 0;
+}
+
+.tiga {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(32, 248, 3);
+    border-radius: 50%;
+}
+
+.empat {
+    width: 150px;
+    height: 75px;
+    border: 10px solid rgb(0, 4, 236);
+    margin-bottom: 70px;
+    border-radius: 50% 50% 0 0;
+}
+
+.lima {
+    width: 150px;
+    height: 75px;
+    border: 10px solid rgb(0, 4, 236);
+    border-radius: 0 0 50% 50%;
+}
+
+.enam {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(252, 151, 0);
+    border-radius: 0 50% 50% 0;
+}

@@ -1,0 +1,59 @@
+.container {
+    width: 800px;
+    height: 1750px;
+    margin: 50px auto;
+    background-color: salmon;
+}
+
+.satu {
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: steelblue;
+    background-image: radial-gradient(circle farthest-side at top left red, blue);
+}
+
+.kotak-dua {
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    background-image: radial-gradient(circle farthest-side at top left red, blue);
+}
+
+.kotak-tiga {
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    background-image: radial-gradient(circle farthest-side at top left red, blue);
+}
+
+.kotak-empat {
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    background-image: radial-gradient(circle farthest-side at top left red, blue);
+}
+
+.kotak-lima {
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    background-image: radial-gradient(circle farthest-side at top left red, blue);
+}
+
+
+
+
+/* background-image: radial-gradient(ellipse/circle ); */
+
+/* Sintaks Lengkap */
+/* background-image: radial-gradient(<tipe> <jangkauan> at <posisi-y> <posisi-x>, <warna-1>, <warna-2> ..... <warna-n>); */
+
+/* <jangkauan> ada 4 value:*/
+/* 1. closest-corner */
+/* Jarak dari pusat gradient ke sudut terdekat element */
+/* 2. closest-side */
+/* Jarak dari pusat gradient ke sisi terdekat element */
+/* 3. farthest-corner */
+/* Jarak dari pusat gradient ke sudut terjauh element */
+/* 4. farthest-side */
+/* Jarak dari pusat gradient ke sisi terjauh element */

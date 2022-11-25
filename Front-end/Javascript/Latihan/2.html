@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mencoba mengubah style CSS dengan Javascript</title>
+</head>
+<body>
+    <h1 id="coba"></h1>
+    <p>Klik tombol disini</p>
+    <button onclick="document.getElementById('coba').innerHTML = 'Font-nya muncul nih'">Disini</button>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 id="miring">Ayo ubah font berikut ini</h1>
+    <p>Klik tombol disini</p>
+    <button onclick="document.getElementById('miring').style.fontStyle = 'italic'">Disini</button>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 id="hilang">Ayo hilangkan font berikut ini</h1>
+    <p>Klik tombol disini</p>
+    <button onclick="document.getElementById('hilang').style.display = 'none'">Disini</button>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 id="popup" style="display: none;">Font-nya muncul nih pake style</h1>
+    <p>Klik tombol disini munculin font dengan style</p>
+    <button onclick="document.getElementById('popup').style.display = 'block'">Disini</button>
+
+</body>
+</html>

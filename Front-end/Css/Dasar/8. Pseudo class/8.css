@@ -1,0 +1,47 @@
+/* Mengubah warna link */
+.hello:link {
+    color: tomato;
+    text-decoration: none;
+}
+
+/* Ketika mouse mengarah ke link */
+.hello:hover {
+    color: teal;
+}
+
+/* Ketika link di klik */
+.hello:active {
+    color: violet;
+}
+
+/* Ketika link sudah pernah dikunjungi */
+.hello:visited {
+    color: cornflowerblue;
+}
+
+
+
+ul li:first-child a {
+    color: lawngreen;
+}
+
+li:last-child a {
+    color: lightsteelblue;
+}
+
+li:nth-child(odd) a {
+    color: lightseagreen;
+    /* Parameter nth-child ada odd untuk bil.ganjil dan even untuk bil. genap */
+}
+
+li:nth-child(odd) a:hover {
+    color: lightsalmon;
+}
+
+p:first-of-type {
+    color: maroon;
+}
+
+p:last-of-type {
+    color: plum;
+}

@@ -1,0 +1,21 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: salmon;
+    border-radius: 50% 0 50% 0;
+    /* border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%; */
+    text-align: center;
+    line-height: 400px;
+
+    background-image: url(profile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+
+.gambar img {
+    width: 400px;
+}

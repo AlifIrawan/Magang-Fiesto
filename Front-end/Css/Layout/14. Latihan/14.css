@@ -1,0 +1,307 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+
+/* My Own Style */
+body {
+    background-image: url(img/background.png);
+    font: 16/20px arial, sans-serif;
+    color: #333;
+}
+
+.top-bar {
+    height: 40px;
+    background-color: salmon;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid skyblue;
+    z-index: 9999;
+}
+
+.container {
+    width: 960px;
+    margin: 70px auto;
+    background-color: white;
+    position: relative;
+}
+
+.instagram {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(img/ribbon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    position: absolute;
+    top: -23px;
+    right: -27px;
+    overflow: hidden;
+}
+
+
+/* HEADER */
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font: bold 30px/20px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+
+/* HERO */
+.hero {
+    width: 960px;
+    height: 350px;
+    background-image: url(img/Haikal-wallpaper.png);
+    background-size: cover;
+    background-position: 0px -150px;
+    border-top: 5px solid salmon;
+    border-bottom: 10px solid skyblue;
+}
+
+
+
+/* MAIN */
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font: bold 25px/20px sans-serif;
+    margin-bottom: 8px;
+}
+
+.main .penulis {
+    font: 12px/10px sans-serif;
+    margin-bottom: 20px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: steelblue;
+    padding: 1px;
+}
+
+.main .penulis a:hover {
+    color: salmon;
+    background-color: whitesmoke;
+}
+
+.main p {
+    margin-bottom: 15px;
+    font: 12px/15px arial;
+}
+
+.main p:first-of-type {
+    text-indent: 30px;
+}
+
+.content p:last-of-type {
+    margin-bottom: 50px;
+}
+
+
+
+/* SIDEBAR */
+.sidebar {
+    padding: 20px;
+    width: 300px;
+    float: right;
+}
+
+.sidebar h3 {
+    font: bold 15px/20px sans-serif;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.sidebar img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font: 12px/15px arial;
+}
+
+
+
+/* FOOTER */
+.footer {
+    height: 20px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copyright {
+    font: 12px arial;
+    color: cornsilk;
+    text-align: center;
+}
+
+
+/* CLEARFIX FLOAT */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

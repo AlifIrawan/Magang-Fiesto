@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan html</title>
+    <link rel="icon" href="Asset/football-player1.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Selamat datang di Latihan HTML</h1>
+    <p>Buatlah form dengan banyak Tipe</p>
+
+    <form action="" target="_blank">
+        <p>
+            <label for="fnama">Nama Depan : </label>
+            <input type="text" name="fnama" id="fnama" placeholder="nama depan.." autocomplete="off" required>
+        </p>
+
+        <p>
+            <label for="lnama">Nama Belakang : </label>
+            <input type="text" name="lnama" id="lnama" placeholder="nama belakang.." autocomplete="off" required>
+        </p>
+
+        <p>
+            <label for="email">Email anda : </label>
+            <input type="email" id="email" name="email" placeholder="alamat email.." autocomplete="off" required>
+        </p>
+
+        <p>
+            <label for="birthday">Ulang Tahun : </label>
+            <input type="datetime-local" name="birthday" id="birthday" min="2000-01-01">
+        </p>
+
+        <p>
+            <p><label for="alamat">Alamat : </label></p>
+            <textarea name="alamat" id="alamat" cols="40" rows="10"></textarea>
+        </p>
+
+        <p>
+            <p><label for="kelas">Kelas : </label></p>
+            <input type="radio" name="kelas" id="kelasX" value="X">
+            <label for="kelasX">X</label>
+            <input type="radio" name="kelas" id="kelasXI" value="XI">
+            <label for="kelasXI">XI</label>
+            <input type="radio" name="kelas" id="kelasXII" value="XII">
+            <label for="kelasXII">XII</label>
+        </p>
+
+        <p>
+            <p><label for="hobi">Hobi : </label></p>
+            <input type="checkbox" name="Berenang" id="hobi1" value="Berenang">
+            <label for="hobi1">Berenang</label>
+            <input type="checkbox" name="Memanah" id="hobi2" value="Memanah">
+            <label for="hobi2">Memanah</label>
+            <input type="checkbox" name="Berkuda" id="hobi3" value="Berkuda">
+            <label for="hobi3">Berkuda</label>
+            <input type="checkbox" name="Other" id="hobi4" value="Other">
+            <label for="hobi4">Dan lain lainnya..</label>
+        </p>
+
+        <p>
+            <label for="favcolor">Pilih warna kesukaan : </label>
+            <input type="color" name="favcolor" id="favcolor">
+        </p>
+
+        <p>
+            <button type="submit" value="submit">Simpan</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>

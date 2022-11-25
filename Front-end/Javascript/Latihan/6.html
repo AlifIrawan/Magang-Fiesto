@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mencoba mengurutkan array</title>
+</head>
+<body>
+    <!-- Mencoba mengurutkan dengan string -->
+    <p id="demo3"></p>
+    <b>Setelah diurutkan : </b>
+    <p id="demo4"></p>
+
+    <!-- Mencoba mengurutkan dengan angka -->
+    <p id="demo1"></p>
+    <b>Setelah diurutkan : </b>
+    <p id="demo2"></p>
+
+    <!-- Mencari Nilai Terbesar di array -->
+    <b>Angka Terbesar : </b>
+    <p id="demo5"></p>
+    <!-- Mencari Nilai Terkecil di array -->
+    <b>Angka Terkecil : </b>
+    <p id="demo6"></p>
+
+
+    <script>
+        // Mengurutkan Array
+        let barang = ['Kapal', 'Bola', 'Selang', 'Baju', 'Meja', 'Jam', 'Sikat gigi', 'Teflon'];
+        document.getElementById("demo3").innerHTML = barang;
+        barang.sort();
+        document.getElementById("demo4").innerHTML = barang;
+
+        // Ada cara khusus jika ingin mengurutkan array yang berisi angka
+        let angka = [1, 15, 10, 125, 25,20, 30, 45, 42, 50];
+        document.getElementById("demo1").innerHTML = angka;
+        angka.sort(function(a,b){return a-b});
+        // Try this one too
+            // angka.sort(function(a,b){return b-a});
+        document.getElementById("demo2").innerHTML = angka;
+    
+        // Function mencari angka terbesar
+        function arrMaxValue(arr){
+            return Math.max.apply(null, arr);
+        }
+
+        // Function mencari angka terkecil
+        function arrMinValue(arr){
+            return Math.min.apply(null, arr);
+        }
+    
+    
+        document.getElementById("demo5").innerHTML = arrMaxValue(angka);
+        document.getElementById("demo6").innerHTML = arrMinValue(angka);
+    </script>
+
+</body>
+</html>

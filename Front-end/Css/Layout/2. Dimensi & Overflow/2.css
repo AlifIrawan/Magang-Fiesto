@@ -1,0 +1,14 @@
+.flow {
+    width: 50%;
+}
+
+.flow h2 {
+    height: 200px;
+    background-color: yellowgreen;
+    display: block;
+}
+
+.flow p {
+    height: 150px;
+    overflow: auto;
+}

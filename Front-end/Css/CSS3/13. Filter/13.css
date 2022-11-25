@@ -1,0 +1,20 @@
+/* 
+    blur (px)
+    brightness (angka | %)
+    contrast (angka | %)
+    saturate (angka | %)
+    grayscale (angka | %)
+    sepia (angka | %)
+    hue-rotate (deg)
+    invert (angka | %)
+    opacity (angka | %)
+    drop-shadow (sama seperti box-shadow) *dapat diaplikasikan ke text maupun box* *bisa memberikan bayangan pada objek bukan box-gambar*
+
+*/
+body {
+    text-align: center;
+}
+
+img {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 255, 1)) grayscale(100%)
+}
